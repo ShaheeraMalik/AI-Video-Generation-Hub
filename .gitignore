@@ -1,17 +1,37 @@
+# ───────────────────────────────────────────────────────
 # Node modules
-node_modules/
-Frontend/my-app/node_modules/
+# ───────────────────────────────────────────────────────
+/node_modules/
 Backend/node_modules/
+/Frontend/my-app/node_modules/
 
-# Build outputs
+# ───────────────────────────────────────────────────────
+# Build / output folders
+# ───────────────────────────────────────────────────────
 Backend/dist/
-Frontend/my-app/.next/
-Frontend/my-app/out/
+/Frontend/my-app/.next/
+/Frontend/my-app/out/
 
+# ───────────────────────────────────────────────────────
 # Environment files
+# ───────────────────────────────────────────────────────
 .env
-Frontend/my-app/.env.local
+/Frontend/my-app/.env.local
 
-# Editor dirs
+# ───────────────────────────────────────────────────────
+# Editor directories and system files
+# ───────────────────────────────────────────────────────
 .vscode/
 .DS_Store
+
+# ───────────────────────────────────────────────────────
+# Logs
+# ───────────────────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ───────────────────────────────────────────────────────
+# TypeScript build cache
+# ───────────────────────────────────────────────────────
+*.tsbuildinfo
