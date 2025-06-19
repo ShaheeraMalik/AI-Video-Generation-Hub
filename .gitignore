@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+Frontend/my-app/node_modules/
+Backend/node_modules/
+
+# Build outputs
+Backend/dist/
+Frontend/my-app/.next/
+Frontend/my-app/out/
+
+# Environment files
+.env
+Frontend/my-app/.env.local
+
+# Editor dirs
+.vscode/
+.DS_Store
